@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: #fff;
+   font-family: 'EduNSWACTHandPreMedium', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'EduNSWACTHandPreMedium';
+  src: url('/fonts/EduNSWACTHandPre-Medium.ttf') format('truetype');
+  font-weight: 500; /* or adjust accordingly */
+  font-style: normal;
+  font-display: swap;
+}
