@@ -2,15 +2,20 @@
 
 body {
   background-color: #000;
-   font-family: 'EduNSWACTHandPreMedium', sans-serif;
+  font-family: 'GeistMono', monospace;
+  font-weight: 400;
+  /* or any value in the 100-900 range */
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 @font-face {
-  font-family: 'EduNSWACTHandPreMedium';
-  src: url('/fonts/EduNSWACTHandPre-Medium.ttf') format('truetype');
-  font-weight: 500; /* or adjust accordingly */
+  font-family: 'GeistMono';
+  src: url('/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  /* variable font weight range */
   font-style: normal;
   font-display: swap;
 }
