@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 text-gray-800 mt-10">
+    <footer className="bg-black  text-white">
       <div className="max-w-7xl mx-auto px-6 py-10">
         <motion.div
           className="flex flex-col items-center gap-8"
@@ -24,7 +24,7 @@ const Footer = () => {
             <h2 className="text-2xl font-bold text-violet-600 hover:text-violet-800 transition-colors duration-300 cursor-pointer">
               Riya
             </h2>
-            <p className="mt-2 text-sm text-gray-600 max-w-sm mx-auto">
+            <p className="mt-2 text-sm text-white max-w-sm mx-auto">
               Thank you for visiting my portfolio. Let's connect!
             </p>
             <div className="flex justify-center gap-4 mt-4 text-violet-600 text-xl">
@@ -56,7 +56,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <motion.div
-          className="border-t border-gray-100 mt-10 pt-6 text-sm text-center text-gray-500"
+          className="border-t border-gray-100 mt-10 pt-6 text-sm text-center text-white"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}

@@ -16,14 +16,14 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50 top-0 left-0">
+    <nav className="bg-black shadow-md fixed w-full z-50 top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-2xl font-extrabold text-violet-600 tracking-wide">Riya</div>
 
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex gap-8 text-gray-800 font-medium">
+          <ul className="hidden md:flex gap-8 text-white font-medium">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link
@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-3xl text-gray-800">
+            <button onClick={toggleMenu} className="text-3xl text-white">
               {isOpen ? <FiX /> : <FiMenu />}
             </button>
           </div>
@@ -66,9 +66,9 @@ const Navbar = () => {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white shadow-inner px-6 pt-4 pb-6 overflow-hidden"
+            className="md:hidden bg-black shadow-inner px-6 pt-4 pb-6 overflow-hidden"
           >
-            <ul className="space-y-5 text-gray-800 font-medium">
+            <ul className="space-y-5 text-white font-medium">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <Link

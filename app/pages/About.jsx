@@ -32,7 +32,7 @@ const AboutPage = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 pt-20 md:pt-32" id="about">
+    <section className="bg-black py-16 px-6 pt-20 md:pt-32" id="about">
       <div className="max-w-4xl mx-auto">
         {/* Heading */}
         <motion.div
@@ -42,16 +42,16 @@ const AboutPage = () => {
           variants={containerVariants}
           custom={0}
         >
-          <h2 className="text-4xl font-bold text-gray-900">
+          <h2 className="text-4xl font-bold text-white">
             About <span className="text-violet-600">Me</span>
           </h2>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-white max-w-2xl mx-auto">
             A brief overview of my background, skills, and passions.
           </p>
         </motion.div>
 
         {/* Content */}
-        <div className="space-y-12 text-gray-700 text-base leading-relaxed">
+        <div className="space-y-12 text-white text-base leading-relaxed">
           {/* Who I Am */}
           <motion.div
             className="flex flex-col-reverse md:flex-row items-center gap-8"
@@ -62,7 +62,7 @@ const AboutPage = () => {
           >
             {/* Text Content */}
             <div className="md:w-2/3">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
+              <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
                 <FaLaptopCode className="text-violet-600 text-3xl" />
                 Who I Am
               </h3>
@@ -100,7 +100,7 @@ const AboutPage = () => {
           >
             <FaLightbulb className="text-violet-600 text-3xl mt-1 flex-shrink-0" />
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">What I Believe In</h3>
+              <h3 className="text-2xl font-semibold text-white mb-2">What I Believe In</h3>
               <ul className="list-disc list-inside space-y-2">
                 <li>Continuous learning and growth in technology and innovation.</li>
                 <li>Building solutions that combine hardware and software for real impact.</li>
@@ -120,7 +120,7 @@ const AboutPage = () => {
           >
             <FaTools className="text-violet-600 text-3xl mt-1 flex-shrink-0" />
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">My Tech Stack</h3>
+              <h3 className="text-2xl font-semibold text-white mb-4">My Tech Stack</h3>
               <div className="flex flex-wrap gap-3">
                 {skills.map((skill) => (
                   <span

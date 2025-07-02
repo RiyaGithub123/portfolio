@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className="bg-white  pb-12 pt-20 md:pt-32 md:pb-20">
+    <section className="bg-black  pb-12 pt-20 md:pt-32 md:pb-20">
       <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
         {/* Left: Image */}
         <motion.div
@@ -28,7 +28,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
         >
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
             Hi, I'm <span className="text-violet-600">Riya</span> 👋
           </h1>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed max-w-lg mx-auto md:mx-0">

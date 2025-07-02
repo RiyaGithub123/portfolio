@@ -27,7 +27,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section className="bg-white py-16 px-6" id="contact">
+    <section className="bg-black py-16 px-6" id="contact">
       <motion.div
         className="max-w-xl mx-auto text-center"
         initial="hidden"
@@ -35,14 +35,14 @@ const ContactPage = () => {
         variants={containerVariants}
       >
         <motion.h2
-          className="text-4xl font-bold text-gray-900 mb-6"
+          className="text-4xl font-bold text-white mb-6"
           variants={itemVariants}
         >
           Get in <span className="text-violet-600">Touch</span>
         </motion.h2>
 
         <motion.p
-          className="text-gray-700 mb-8 text-lg"
+          className="text-white mb-8 text-lg"
           variants={itemVariants}
         >
           I'd love to hear from you! Whether you have a question or want to work

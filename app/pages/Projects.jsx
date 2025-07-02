@@ -120,7 +120,7 @@ const ProjectsPage = () => {
     index,
   }) => (
     <motion.div
-      className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col justify-between cursor-pointer"
+      className="bg-gray-800 border border-gray-600 rounded-lg p-6 flex flex-col justify-between cursor-pointer"
       variants={cardVariants}
       whileHover="hover"
       whileTap={{ scale: 0.97 }}
@@ -136,7 +136,7 @@ const ProjectsPage = () => {
       )}
 
       <h3 className="text-xl font-semibold text-violet-600 mb-3">{title}</h3>
-      <p className="text-gray-700 mb-4">{description}</p>
+      <p className="text-white mb-4">{description}</p>
 
       <div className="flex flex-wrap gap-2 mb-6">
         {techStack.map((tech) => (
@@ -182,9 +182,9 @@ const ProjectsPage = () => {
   );
 
   return (
-    <section className="bg-white py-16 px-6" id="projects">
+    <section className="bg-black py-16 px-6" id="projects">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center">
           <span className="text-violet-600">Projects</span> I've Built
         </h2>
 
